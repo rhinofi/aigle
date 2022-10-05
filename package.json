@@ -3,7 +3,7 @@
   "version": "1.15.0-alpha.0",
   "description": "Aigle is an ideal Promise library, faster and more functional than other Promise libraries",
   "main": "index.js",
-  "typings": "aigle.d.ts",
+  "typings": "typings/aigle.d.ts",
   "private": true,
   "browser": "browser.js",
   "scripts": {
@@ -32,7 +32,8 @@
     "index.js",
     "lib/",
     "browser.js",
-    "dist/"
+    "dist/",
+    "typings/aigle.d.ts"
   ],
   "author": "Suguru Motegi",
   "license": "MIT",
